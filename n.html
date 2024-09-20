@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <button id="all">Remove All</button>
+    <ul>
+        <li>
+            <p>Task - 1</p>
+            <button>delete</button>
+        </li>
+        <li>
+            <p>Task - 2</p>
+            <button>delete</button>
+        </li>
+        <li>
+            <p>Task - 3</p>
+            <button>delete</button>
+        </li>
+        <li>
+            <p>Task - 4</p>
+            <button>delete</button>
+        </li>
+    </ul>
+    <script>
+         </script>
+    </body>
+    
+    </html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remove Example</title>
+    <style>
+        .item {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="item">
+            <div class="item1">Item 1 <button onclick="removeItem(this)">Remove</button></div>
+            <div class="item2">Item 2 <button onclick="removeItem(this)">Remove</button></div>
+            <div class="item3">Item 3 <button onclick="removeItem(this)">Remove</button></div>
+        </div>
+       
+    </div>
+<script>
+    function removeItem(button){
+    const alldivs = document.querySelectorAll('item');
+    alldivs.forEach(alldivs => divs.classList.remove('item'));
+// remove parent div elem from its parent 
+    }
+</script>
+    </body>
+    </html>
